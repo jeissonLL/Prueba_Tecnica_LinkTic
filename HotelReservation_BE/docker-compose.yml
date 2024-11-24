@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  hotelreservation_v1:
+    image: ${DOCKER_REGISTRY-}hotelreservationv1
+    build:
+      context: .
+      dockerfile: HotelReservation_v1\Dockerfile

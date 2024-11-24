@@ -1,0 +1,18 @@
+name: dockercompose1976670013850146661
+services:
+  hotelreservation_v1:
+    build:
+      context: C:\Arquitectura hexagonal\HotelReservation_BE
+      dockerfile: HotelReservation_v1\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: hotelreservationv1
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        protocol: tcp
+networks:
+  default:
+    name: dockercompose1976670013850146661_default

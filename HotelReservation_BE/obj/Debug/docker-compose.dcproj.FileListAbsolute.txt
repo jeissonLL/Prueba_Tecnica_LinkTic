@@ -1,0 +1,1 @@
+C:\HotelReservation_v1\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
