@@ -30,9 +30,11 @@ export const getBookings = async (): Promise<Booking[]> => {
 
 // Obtener una reserva por ID
 export const getBookingById = async (id: number): Promise<Booking> => {
-  const res = await fetch(`${API_URL}/Booking/${id}`);
-  if (!res.ok) throw new Error(`Failed to fetch booking with ID ${id}`);
-  return res.json();
+  const response = await fetch(`${API_URL}/Booking/${id}`);
+  if (!response.ok) {
+    throw new Error(`Error fetching booking with ID ${id}`);
+  }
+  return await response.json();
 };
 
 //Eliminar reserva

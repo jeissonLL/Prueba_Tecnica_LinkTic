@@ -30,16 +30,18 @@
   </script>
   
   <h1>Update Booking</h1>
-  {#if booking}
-    <form on:submit|preventDefault={update}>
-      <input type="date" bind:value={booking.reservationDate} required />
-      <input type="number" bind:value={booking.peopleNumber} required />
-      <input type="text" bind:value={booking.estado} required />
-      <input type="number" bind:value={booking.customerId} required />
-      <input type="number" bind:value={booking.serviceId} required />
-      <button type="submit">Update</button>
-    </form>
-  {:else}
-    <p>Loading...</p>
-  {/if}
+{#if booking}
+  <form on:submit|preventDefault={update}>
+    <input type="date" bind:value={booking.reservationDate} required />
+    <input type="number" bind:value={booking.peopleNumber} required />
+    <input type="text" bind:value={booking.estado} required />
+    <input type="number" bind:value={booking.customerId} required />
+    <input type="number" bind:value={booking.serviceId} required />
+    <button type="submit">Update</button>
+  </form>
+{:else if booking === null}
+  <p>Loading...</p>
+{:else}
+  <p>Error loading booking data. Please try again.</p>
+{/if}
   
