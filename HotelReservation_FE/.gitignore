@@ -19,3 +19,12 @@ Thumbs.db
 # Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Ignorar la carpeta .vs
+.vs/
+
+# Ignorar otras configuraciones temporales
+*.log
+*.tmp
+*.swp
+*.lock
