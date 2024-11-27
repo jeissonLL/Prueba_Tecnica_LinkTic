@@ -35,12 +35,11 @@ namespace Presentation.Controllers
             return Ok();
         }
 
-        [HttpDelete]
-        public async Task<IActionResult> DeleteBooking([FromBody] DeleteBookingCommand command)
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteBooking(int id, CancellationToken ct)
         {
-            await _mediator.Send(command);
-
-            return Ok();
+            var result = await _mediator.Send(new DeleteBookingCommand { BookingId = id }, ct);
+            return Ok(new { message = "Reserva eliminada exitosamente." });
         }
 
         [HttpGet]
