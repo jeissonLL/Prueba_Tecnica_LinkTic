@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "suItn0KCB/g=",
+  "dgSpecHash": "DgIRxjfIoYM=",
   "success": true,
-  "projectFilePath": "C:\\Arquitectura hexagonal\\HotelReservation_BE\\HotelReservation_v1\\src\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Arquitectura hexagonal\\Prueba_Tecnica_LinkTic\\HotelReservation_BE\\HotelReservation_v1\\src\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.4.0\\fluentvalidation.aspnetcore.10.4.0.nupkg.sha512",

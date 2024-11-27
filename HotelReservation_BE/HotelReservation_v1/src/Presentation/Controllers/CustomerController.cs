@@ -4,6 +4,7 @@ using Application.Customers.Command;
 using Application.Customers.Query;
 using Application.Customers.Querys;
 using Microsoft.AspNetCore.Authorization;
+using Application.Bookings.Command;
 
 namespace Presentation.Controllers
 {
@@ -34,12 +35,12 @@ namespace Presentation.Controllers
             return Ok();
         }
 
-        [HttpDelete]
-        public async Task<IActionResult> DeleteCustomer([FromBody] DeleteCustomerCommand command)
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteCustomer(int id, CancellationToken ct)
         {
-            await _mediator.Send(command);
-
-            return Ok();
+            var result = await _mediator.Send(new DeleteCustomerCommand { CustomerId = id }, ct);
+            return Ok(new { message = "Cliente eliminada exitosamente." });
+            
         }
 
         [HttpGet]
