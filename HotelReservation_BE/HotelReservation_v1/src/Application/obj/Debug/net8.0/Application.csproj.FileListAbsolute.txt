@@ -36,3 +36,23 @@ C:\HotelReservation_BE\HotelReservation_v1\src\Application\obj\Debug\net8.0\refi
 C:\HotelReservation_BE\HotelReservation_v1\src\Application\obj\Debug\net8.0\Application.pdb
 C:\HotelReservation_BE\HotelReservation_v1\src\Application\obj\Debug\net8.0\Application.genruntimeconfig.cache
 C:\HotelReservation_BE\HotelReservation_v1\src\Application\obj\Debug\net8.0\ref\Application.dll
+C:\Arquitectura hexagonal\Prueba_Tecnica_LinkTic\HotelReservation_BE\HotelReservation_v1\src\Application\bin\Debug\net8.0\Application.deps.json
+C:\Arquitectura hexagonal\Prueba_Tecnica_LinkTic\HotelReservation_BE\HotelReservation_v1\src\Application\bin\Debug\net8.0\Application.runtimeconfig.json
+C:\Arquitectura hexagonal\Prueba_Tecnica_LinkTic\HotelReservation_BE\HotelReservation_v1\src\Application\bin\Debug\net8.0\Application.dll
+C:\Arquitectura hexagonal\Prueba_Tecnica_LinkTic\HotelReservation_BE\HotelReservation_v1\src\Application\bin\Debug\net8.0\Application.pdb
+C:\Arquitectura hexagonal\Prueba_Tecnica_LinkTic\HotelReservation_BE\HotelReservation_v1\src\Application\bin\Debug\net8.0\Domain.dll
+C:\Arquitectura hexagonal\Prueba_Tecnica_LinkTic\HotelReservation_BE\HotelReservation_v1\src\Application\bin\Debug\net8.0\Infrastructure.dll
+C:\Arquitectura hexagonal\Prueba_Tecnica_LinkTic\HotelReservation_BE\HotelReservation_v1\src\Application\bin\Debug\net8.0\Domain.pdb
+C:\Arquitectura hexagonal\Prueba_Tecnica_LinkTic\HotelReservation_BE\HotelReservation_v1\src\Application\bin\Debug\net8.0\Infrastructure.pdb
+C:\Arquitectura hexagonal\Prueba_Tecnica_LinkTic\HotelReservation_BE\HotelReservation_v1\src\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+C:\Arquitectura hexagonal\Prueba_Tecnica_LinkTic\HotelReservation_BE\HotelReservation_v1\src\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Arquitectura hexagonal\Prueba_Tecnica_LinkTic\HotelReservation_BE\HotelReservation_v1\src\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+C:\Arquitectura hexagonal\Prueba_Tecnica_LinkTic\HotelReservation_BE\HotelReservation_v1\src\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+C:\Arquitectura hexagonal\Prueba_Tecnica_LinkTic\HotelReservation_BE\HotelReservation_v1\src\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+C:\Arquitectura hexagonal\Prueba_Tecnica_LinkTic\HotelReservation_BE\HotelReservation_v1\src\Application\obj\Debug\net8.0\Application.sourcelink.json
+C:\Arquitectura hexagonal\Prueba_Tecnica_LinkTic\HotelReservation_BE\HotelReservation_v1\src\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
+C:\Arquitectura hexagonal\Prueba_Tecnica_LinkTic\HotelReservation_BE\HotelReservation_v1\src\Application\obj\Debug\net8.0\Application.dll
+C:\Arquitectura hexagonal\Prueba_Tecnica_LinkTic\HotelReservation_BE\HotelReservation_v1\src\Application\obj\Debug\net8.0\refint\Application.dll
+C:\Arquitectura hexagonal\Prueba_Tecnica_LinkTic\HotelReservation_BE\HotelReservation_v1\src\Application\obj\Debug\net8.0\Application.pdb
+C:\Arquitectura hexagonal\Prueba_Tecnica_LinkTic\HotelReservation_BE\HotelReservation_v1\src\Application\obj\Debug\net8.0\Application.genruntimeconfig.cache
+C:\Arquitectura hexagonal\Prueba_Tecnica_LinkTic\HotelReservation_BE\HotelReservation_v1\src\Application\obj\Debug\net8.0\ref\Application.dll
